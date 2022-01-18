@@ -1,0 +1,24 @@
+# Variables that are dependendent on the user are declared here
+
+credentials_file = ""
+
+project_name = ""
+
+username = "root"
+
+region_name = ""
+
+zone_name = ""
+
+public_key_path = ""
+
+private_key_path = ""
+
+image_name = ""
+
+machine_size = ""
+
+disk_size_gb = ""
+
+
+
