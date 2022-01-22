@@ -4,9 +4,11 @@ on:
   push:
     branches:
     - main
+    - Google-preemptible
   pull_request:
     branches:
     - main
+    - Google-preemptible
 
 jobs:
   scanning:

@@ -6,8 +6,6 @@ backend.tf
 
 backend/backend.tfvars
 
-Azure-ssh/**
-
 *.tfstate
 *.backup
 *.tfvars
