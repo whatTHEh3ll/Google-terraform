@@ -39,7 +39,7 @@ resource "google_compute_instance" "vm_instance" {
   name         = local.vm-name
   machine_type =  var.machine_size
   zone         =  var.zone_name
-  tags         = ["allow-ssh" ]  # FIREWALL
+  tags = ["allow-http", "allow-https", "allow-dns", "allow-tor", "allow-ssh", "allow-2277", "allow-mosh", "allow-whois", "allow-openvpn", "allow-wireguard", "allow-speedtest"]  # FIREWALL
   boot_disk {
     initialize_params {
       image = var.image_name
