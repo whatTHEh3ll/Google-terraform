@@ -5,10 +5,12 @@ on:
     branches:
     - main
     - Google-preemptible
+    - Google-ip-forwarding
   pull_request:
     branches:
     - main
     - Google-preemptible
+    - Google-ip-forwarding
 
 jobs:
   scanning:
